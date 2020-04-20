@@ -1,7 +1,20 @@
 # Freedom Wall
 
-::: tip Notice
-This was last updated on **April 19, 2020** by [Carding][last-updated-by]
+::: warning Notice
+This was last updated on **{{ new Date($page.lastUpdated).toLocaleDateString('en-PH', {
+  weekday: 'long',
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+}) }}**.
 :::
 
-[last-updated-by]: https://github.com/richardneililagan
+---
+
+### Messages
+
+::: tip April 19, 2020
+Hello world!
+
+&mdash; [Carding](/roster/carding.md)
+:::

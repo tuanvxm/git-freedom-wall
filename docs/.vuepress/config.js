@@ -1,4 +1,19 @@
-const sidebar = ['/']
+const roster = require('./roster')
+
+const sidebar = [
+  {
+    title: 'Home',
+    children: [
+      ['/', 'Welcome'],
+      ['/about', 'About'],
+      ['/contributing', 'Contributing']
+    ]
+  },
+  {
+    title: 'Roster',
+    children: roster
+  }
+]
 
 // :: ---
 
@@ -9,7 +24,7 @@ module.exports = {
     sidebar,
     lastUpdated: true,
     repo: 'richardneililagan/git-freedom-wall',
-    repoLabel: 'Add your name here!',
+    repoLabel: 'Github',
     smoothScrolling: true
   }
 }
