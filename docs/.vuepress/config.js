@@ -22,12 +22,17 @@ const navbarLinks = [
 module.exports = {
   title: 'Freedom Wall',
   description: 'A live document of attendees to our workshops.',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'shortcut icon', type: 'image/png', href: '/logo.png' }],
+    ['link', { rel: 'theme-color', content: '#ffffff' }]
+  ],
   themeConfig: {
     sidebar,
     lastUpdated: true,
     repo: 'richardneililagan/git-freedom-wall',
     repoLabel: 'Github',
-    smoothScrolling: true,
+    smoothScroll: true,
     logo: '/logo.png',
     nav: navbarLinks
   }
