@@ -3,16 +3,18 @@ const roster = require('./roster')
 const sidebar = [
   {
     title: 'Home',
-    children: [
-      ['/', 'Welcome'],
-      ['/about', 'About'],
-      ['/contributing', 'Contributing']
-    ]
+    children: [['/contributing', 'Contributing']]
   },
   {
     title: 'Roster',
     children: roster
   }
+]
+
+const navbarLinks = [
+  { text: 'AWS Amplify', link: 'https://aws.amazon.com/amplify' },
+  { text: 'AWS Training', link: 'https://aws.training' },
+  { text: 'AWS Free Tier', link: 'https://aws.amazon.com/free' }
 ]
 
 // :: ---
@@ -25,6 +27,8 @@ module.exports = {
     lastUpdated: true,
     repo: 'richardneililagan/git-freedom-wall',
     repoLabel: 'Github',
-    smoothScrolling: true
+    smoothScrolling: true,
+    logo: '/logo.png',
+    nav: navbarLinks
   }
 }
