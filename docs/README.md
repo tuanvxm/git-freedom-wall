@@ -34,3 +34,10 @@ Hello world!
 
 &mdash; [Carding](/roster/carding.md)
 :::
+
+---
+::: tip 20 April 2020
+555!
+
+&mdash; [mintuan](/roster/mintuan.md)
+:::
